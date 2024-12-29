@@ -74,7 +74,7 @@ elements:
       bottom: 50px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: up
@@ -86,7 +86,7 @@ elements:
       bottom: 0px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: down
@@ -98,7 +98,7 @@ elements:
       bottom: 25px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: left
@@ -110,7 +110,7 @@ elements:
       bottom: 25px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: right
@@ -122,7 +122,7 @@ elements:
       bottom: 50px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: top_left
@@ -134,7 +134,7 @@ elements:
       bottom: 50px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: top_right
@@ -146,7 +146,7 @@ elements:
       bottom: 0px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: bottom_left
@@ -158,7 +158,7 @@ elements:
       bottom: 0px
     tap_action:
       action: call-service
-      action: foscam.ptz
+      service: foscam.ptz
       data:
         entity_id: camera.bedroom
         movement: bottom_right
